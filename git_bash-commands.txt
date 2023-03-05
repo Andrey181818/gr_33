@@ -1,0 +1,194 @@
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я = pwd
+2) Создать папку = mkdir 
+3) Зайти в папку = cd terminal
+4) Создать 3 папки = mkdir dir_1 dir_2 dir_3
+5) Зайти в любую папку = cd dir_1 
+6) Создать 5 файлов (3 txt, 2 json) = clear 01.txt 02.txt 03.txt 04.json 05.json
+7) Создать 3 папки = mkdir kot_1 kot_2 kot_3
+8) Вывести список содержимого папки = ls -la
+9) + Открыть любой txt файл = cat > 01.txt
+10) + Написать туда что-нибудь, любой текст = Andrei Lora
+11) + Сохранить и выйти = Ctrl + C
+12) Выйти из папки на уровень выше = cd ..
+
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку =  mv 04.json 05.json /d/03_Ksendzov/terminal/dir_1/	
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку = cp 04.json 05.json kot_1/
+15) Найти файл по имени = 
+16) Просмотреть содержимое в реальном времени = tail -f 01.txt
+17) Вывести несколько первых строк из текстового файла = head 01.txt
+18) Вывести несколько последних строк из текстового файла = tail 01.txt
+19) Просмотреть содержимое длинного файла = less 01.txt (Выход :q)
+20) Вывести дату и время = date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EP_3
+Method: GET
+EndPoint: /object_info_1
+request url params: 
+ name: str
+ age: int
+ weight: int
+
+response: 
+{'name': name,
+          'age': age,
+          'daily_food': weight * 0.012,
+          'daily_sleep': weight * 2.5}
+
+
+==================
+
+EP_4
+Method: GET
+EndPoint: /object_info_2
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+
+
+==================
+
+EP_5
+Method: GET
+EndPoint: /object_info_3
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'pets': {'cat':{'name':'Sunny',
+                                     'age': 3},
+                              'dog':{'name':'Luky',
+                                     'age': 4}},
+                     'u_salary_1_5_year': salary * 4}
+          }
+
+
+==================
+
+EP_6
+Method: GET
+EndPoint: /object_info_4
+request url params: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': int(age),
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+
+
+==================
+
+EP_7
+Method: POST
+EndPoint: /user_info_2
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'start_qa_salary': salary,
+          'qa_salary_after_6_months': salary * 2,
+          'qa_salary_after_12_months': salary * 2.7,
+          'qa_salary_after_1.5_year': salary * 3.3,
+          'qa_salary_after_3.5_years': salary * 3.8,
+          'person': {'u_name': [user_name, salary, age],
+                     'u_age': age,
+                     'u_salary_5_years': salary * 4.2}
+          }
+Первая часть первого  ДЗ  ))
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я
+2) Создать папку
+3) Зайти в папку
+4) Создать 3 папки
+5) Зайти в любую папку
+6) Создать 5 файлов (3 txt, 2 json)
+7) Создать 3 папки
+8. Вывести список содержимого папки
+9) + Открыть любой txt файл
+10) + написать туда что-нибудь, любой текст.
+11) + сохранить и выйти.
+12) Выйти из папки на уровень выше
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+15) Найти файл по имени
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+17) вывести несколько первых строк из текстового файла
+18) вывести несколько последних строк из текстового файла
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+20) вывести дату и время
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+
+
+
+
